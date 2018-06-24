@@ -149,5 +149,5 @@ ul {
     background-size: 100%;
     /* Keep the image from overlapping sibling elements. */
     z-index: -1;
-    background: red; // background-image: url('https://placekitten.com/g/900/700');
+    background: url('assets/img/bg_repeat.png'); // background-image: url('https://placekitten.com/g/900/700');
 }
