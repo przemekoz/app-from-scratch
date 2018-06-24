@@ -130,7 +130,7 @@ ul {
     /* Needed for children to be absolutely positioned relative to the parent. */
     position: relative;
     /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-    height: 100vh;
+    height: 60vh;
 }
 
 .section-parallax::after {
@@ -149,5 +149,5 @@ ul {
     background-size: 100%;
     /* Keep the image from overlapping sibling elements. */
     z-index: -1;
-    background: url('assets/img/bg_repeat.png'); // background-image: url('https://placekitten.com/g/900/700');
+    background: url('assets/img/bg_repeat_big.png');
 }
